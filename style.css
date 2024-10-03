@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section.container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+/* navbar */
+.navbar-brand img{
+    width: 120px;
+}
+/* startup */
+.title{
+    font-size: 90px;
+}
+.startup p{
+    max-width: 510px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #545454;
+}
+.count{
+    font-size: 45px;
+}
+.square{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border: 2px solid #1F1F1F;
+    border-radius: 3px;
+    z-index: -1;
+}
+.down{
+    width: fit-content;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    padding: 30px 40px;
+    font-size: 28px;
+}
+/* services */
+.services {
+    position: relative;
+}
+
+.services::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    top: 50%;
+    left: -50px;
+}
+
+.services-icon {
+    width: 43px;
+}
+
+/* design1 */
+.design-img1 {
+    width: 450px;
+    height: auto;
+}
+
+/* design2*/
+.design-icon {
+    width: 41px;
+}
+
+.p-design {
+    position: relative;
+}
+
+.p-design::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 120%;
+    background-color: #9b9b9b93;
+    top: 10px;
+    left: -70px;
+}
+
+/* customer */
+.img-box {
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    top: 100px;
+    left: 190px;
+}
+
+.design-img3 {
+    height: auto;
+    width: 500px;
+}
+
+.customer-box {
+    width: 400px;
+    height: 400px;
+}
+
+.box2 {
+    margin-top: 72px !important;
+}
+
+.coma {
+    font-size: 100px;
+}
+
+.customer-opinion {
+    margin-top: -50px !important;
+}
+
+.customer-pic {
+    width: 50px;
+}
+
+.arrows div {
+    width: 50px;
+    height: 50px;
+    background-color: #F1F1F1;
+
+}
+
+/*  */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    position: absolute;
+    bottom: -10%;
+    left: 25%;
+    box-shadow: 5px 5px 20px #00000024;
+}
+
+.contact input {
+    border: none;
+    outline: none;
+
+}
+
+/* footer */
+footer {
+    padding: 120px !important;
+}
+
+footer p {
+    color: #d1d1d1;
+}
+
+footer img {
+    width: 110px;
+}
+
+@media screen and (max-width:1400px) {
+    .customer-box {
+        width: 350px;
+        height: 350px;
+    }
+
+    .box2 {
+        margin-top: 70px !important;
+    }
+
+    .customer-opinion {
+        margin-top: -70px !important;
+    }
+
+    .design-img3 {
+        height: auto;
+        width: 450px;
+    }
+
+    .box1 {
+        position: absolute;
+        top: 100px;
+        left: 170px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .customer-box {
+        width: 330px;
+        height: 340px;
+    }
+
+    .box2 {
+        margin-top: 50px !important;
+        margin-left: 80px !important;
+    }
+
+    .design-img3 {
+        height: auto;
+        width: 400px;
+    }
+
+    .box1 {
+        top: 80px;
+        left: 155px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .customers {
+        margin-top: 150px !important;
+    }
+
+    .box1 {
+        top: 75px;
+        left: 110px;
+    }
+
+    footer {
+        padding: 80px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .box1 {
+        top: 75px;
+        left: 110px;
+    }
+
+}
+
+@media screen and (max-width:510px) {
+    .box1 {
+        top: 60px;
+        left: 85px;
+    }
+
+    .coma {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .customer-box {
+        width: 300px;
+        height: auto;
+    }
+
+    .design-img3 {
+        height: auto;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:433px) {
+    .design-img3 {
+        height: auto;
+        width: 250px;
+    }
+
+    .customer-box {
+        width: 200px;
+        height: auto;
+    }
+
+    .coma {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .customer-box .customer-opinion {
+        font-size: 12px;
+        margin-top: 0px !important;
+    }
+
+    .box1 {
+        top: 30px;
+        left: 55px;
+    }
+
+    .customer-pic {
+        width: 30px;
+    }
+
+    .box2 {
+        margin-left: 20px !important;
+    }
+
+    .arrows div {
+        width: 35px;
+        height: 35px;
+    }
+
+}
+@media screen and (max-width:390px) {
+    .img1{
+        width: 85%;
+        height: 100% !important;
+    }
+}
